@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <Link to="/" className="inline-block mb-6">
               <span className="text-2xl font-display font-bold">
-                Book<span className="text-primary">Your</span>Guest
+                Book<span className="text-primary">Your</span>Guests
               </span>
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">

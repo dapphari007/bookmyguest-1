@@ -44,7 +44,7 @@ const categories = [
   },
   {
     id: "entertainment",
-    name: "Entertainment",
+    name: "Entertain",
     description: "Artists & Performers",
     icon: Music,
     color: "bg-success/10 text-success",

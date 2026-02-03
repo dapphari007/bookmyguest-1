@@ -78,7 +78,7 @@ const Header = () => {
                 isHome && !isScrolled ? "text-primary-foreground" : "text-foreground"
               }`}
             >
-              Book<span className="text-primary">Your</span>Guest
+              Book<span className="text-primary">Your</span>Guests
             </span>
           </Link>
 
