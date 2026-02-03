@@ -31,7 +31,7 @@ const PendingApproval = ({ type }: PendingApprovalProps) => {
           </ul>
         </div>
         <Button variant="outline" className="gap-2" asChild>
-          <a href="mailto:support@bookyourguest.in">
+          <a href="mailto:support@bookyourguests.in">
             <Mail className="w-4 h-4" />
             Contact Support
           </a>

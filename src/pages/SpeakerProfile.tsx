@@ -147,7 +147,7 @@ const SpeakerProfile = () => {
     try {
       await navigator.share({
         title: speaker?.name,
-        text: `Check out ${speaker?.name} on BookYourGuest`,
+        text: `Check out ${speaker?.name} on bookyourguests`,
         url: window.location.href,
       });
     } catch {

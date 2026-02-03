@@ -22,13 +22,13 @@ serve(async (req) => {
     // Demo accounts to create
     const demoAccounts = [
       {
-        email: "admin@bookyourguest.in",
-        password: "Admin@BookYourGuest2025",
+        email: "admin@bookyourguests.in",
+        password: "Admin@bookyourguests2025",
         fullName: "Admin User",
         role: "admin" as const,
       },
       {
-        email: "speaker@demo.bookyourguest.in",
+        email: "speaker@demo.bookyourguests.in",
         password: "Demo@Speaker123",
         fullName: "Rahul Sharma",
         role: "speaker" as const,
@@ -55,7 +55,7 @@ serve(async (req) => {
         }
       },
       {
-        email: "organizer@demo.bookyourguest.in",
+        email: "organizer@demo.bookyourguests.in",
         password: "Demo@Organizer123",
         fullName: "Priya Menon",
         role: "organizer" as const,
@@ -361,15 +361,15 @@ serve(async (req) => {
       results,
       demoCredentials: {
         admin: {
-          email: "admin@bookyourguest.in",
-          password: "Admin@BookYourGuest2025",
+          email: "admin@bookyourguests.in",
+          password: "Admin@bookyourguests2025",
         },
         speaker: {
-          email: "speaker@demo.bookyourguest.in",
+          email: "speaker@demo.bookyourguests.in",
           password: "Demo@Speaker123",
         },
         organizer: {
-          email: "organizer@demo.bookyourguest.in",
+          email: "organizer@demo.bookyourguests.in",
           password: "Demo@Organizer123",
         }
       }
